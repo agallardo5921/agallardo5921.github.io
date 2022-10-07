@@ -30,3 +30,24 @@ h1 {
 #adjective {
     font-family: "Comic Sans MS";
 }
+
+
+a {
+	font: Comic;
+	color: #7915bd;
+}
+
+
+
+<main>
+<span class=”link-info”>
+<code> a:hover { color: magenta; }
+</code>
+</span>
+<div>
+<a href=”#”>Move your mouse pointer over the link.</a>
+</div>
+</main>
+a:hover {
+color: magenta;
+}
