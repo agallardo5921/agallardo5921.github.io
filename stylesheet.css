@@ -39,9 +39,13 @@ a {
 
 
 <span class=”link-info”>
-<code> a:hover { color: magenta; }
+<code> a:hover { color: red; }
 </code>
 </span>
 <div>
 <a href=”#”>Move your mouse pointer over the link.</a>
 </div>
+
+a:hover {
+color: red;
+}
