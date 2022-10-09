@@ -38,8 +38,6 @@ a {
 }
 
 
-
-<main>
 <span class=”link-info”>
 <code> a:hover { color: magenta; }
 </code>
@@ -47,7 +45,3 @@ a {
 <div>
 <a href=”#”>Move your mouse pointer over the link.</a>
 </div>
-</main>
-a:hover {
-color: magenta;
-}
