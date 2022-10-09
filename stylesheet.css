@@ -38,7 +38,7 @@ a {
 }
 
 
-<span class=”link-info”>
+/*<span class=”link-info”>
 <code> a:hover { color: red; }
 </code>
 </span>
@@ -48,4 +48,36 @@ a {
 
 a:hover {
 color: red;
+}*/
+
+
+<main>
+<span class=”link-info”>
+<code> a:link { text-decoration: none; }
+</code>
+</span>
+<div>
+<a href=”#”>This link has no underline.</a>
+</div>
+</main>
+a:link {
+text-decoration: none;
+}
+/** Aesthetics **/
+main {
+width: 50%;
+border: 5px solid #1a1a1a;
+position: relative;
+font-size: 1.5em;
+padding: 1em;
+margin: 2em auto;
+}
+.link-info {
+position: absolute;
+bottom: -3.2em;
+left: -0.25em;
+padding: 1em;
+background-color: #1a1a1a;
+color: #ffffff;
+font-weight: bold;
 }
