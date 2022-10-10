@@ -1,12 +1,13 @@
 /* selects the body element */
 body {
     font-size: 24px;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     /* using a sans-serif font for headings is popular when mixing different type faces
         https://www.adobe.com/creativecloud/design/discover/serif-vs-sans-serif.html */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto' sans-serif;
 }
 
 /* selects all elements of the wrapper class */
@@ -38,46 +39,7 @@ a {
 }
 
 
-/*<span class=”link-info”>
-<code> a:hover { color: red; }
-</code>
-</span>
-<div>
-<a href=”#”>Move your mouse pointer over the link.</a>
-</div>
-
-a:hover {
-color: red;
-}*/
-
-
-<main>
-<span class=”link-info”>
-<code> a:link { text-decoration: none; }
-</code>
-</span>
-<div>
-<a href=”#”>This link has no underline.</a>
-</div>
-</main>
-a:link {
-text-decoration: none;
-}
-/** Aesthetics **/
-main {
-width: 50%;
-border: 5px solid #1a1a1a;
-position: relative;
-font-size: 1.5em;
-padding: 1em;
-margin: 2em auto;
-}
-.link-info {
-position: absolute;
-bottom: -3.2em;
-left: -0.25em;
-padding: 1em;
-background-color: #1a1a1a;
-color: #FF3333;
-font-weight: bold;
+a:hover{
+	color: red
+	
 }
